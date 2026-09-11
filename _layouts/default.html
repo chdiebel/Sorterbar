@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% comment %}
+    Pages carrying the provider's name and address set `noindex: true` in
+    their front matter. Search engines then leave them out of their results,
+    so the address does not turn up when someone searches the name or the
+    street. The page stays reachable for anyone who follows a link to it,
+    which is all the law asks of a legal notice and all Google Play asks of a
+    privacy policy.
+
+    It has to be here, in the head: that is where search engines look for it.
+    Scrapers that ignore robots rules are not stopped by this, and the source
+    files on github.com are a separate page this tag does not reach.
+  {% endcomment %}
+  {% if page.noindex %}<meta name="robots" content="noindex">{% endif %}
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --fg: #1d1f23;
+      --muted: #5b6270;
+      --bg: #ffffff;
+      --line: #e3e5e8;
+      /* The brown of the app icon: the yellow accent is unreadable on white. */
+      --link: #8b3726;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #e7e9ec;
+        --muted: #98a1ad;
+        --bg: #0b0d10;
+        --line: #262b34;
+        --link: #f2d45c;
+      }
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    main {
+      max-width: 42rem;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 4rem;
+    }
+    h1 { font-size: 1.75rem; line-height: 1.25; margin: 0 0 0.5rem; }
+    h2 { font-size: 1.15rem; margin: 2rem 0 0.5rem; }
+    a { color: var(--link); }
+    code { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: 0.9em; }
+    hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0 1rem; }
+    hr + p { color: var(--muted); font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main>
+{{ content }}
+  </main>
+</body>
+</html>

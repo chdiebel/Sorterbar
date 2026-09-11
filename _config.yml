@@ -1,0 +1,11 @@
+# GitHub Pages settings for chdiebel/Sorterbar.
+title: Sorterbar
+lang: en
+
+# Every page uses _layouts/default.html, which is where the noindex tag for
+# the pages carrying the address is written into the page head.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
