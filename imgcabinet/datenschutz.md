@@ -8,7 +8,7 @@ noindex: true
 
 *[English version](privacy-policy)*
 
-**Stand: 11. September 2026**
+**Stand: 1. Oktober 2026**
 
 Diese Erklärung beschreibt, wie die Android-App IMGCabinet und diese
 Begleitseite mit personenbezogenen Daten umgehen. Sie gilt nicht für den
@@ -18,7 +18,8 @@ Datenschutzerklärung hat.
 In Kürze: Die App selbst erhebt und überträgt keine Daten, da ihr die
 Berechtigung zur Internetnutzung fehlt. Alles, was Sie in der App anlegen,
 bleibt im app-eigenen Speicher Ihres Telefons und verlässt das Gerät nur,
-wenn Sie selbst etwas exportieren oder teilen. Es gibt keine Konten, keine
+wenn Sie selbst etwas exportieren oder teilen oder den Sync-Ordner
+einschalten und eine App Ihrer Wahl ihn übertragen lassen (Ziffer 2.6). Es gibt keine Konten, keine
 Anmeldung, keine Analyse, keine Absturzberichte, keine Werbung und keine
 Dienste Dritter in der App. Beim Aufruf dieser Website fallen jedoch, wie bei
 praktisch jeder Website, technisch bedingte Server-Logs beim Hosting-Anbieter
@@ -44,6 +45,7 @@ Alles Folgende stammt von Ihnen und liegt in einem Speicherbereich, der der App
 gehört und für andere Apps nicht lesbar ist:
 
 - die Bilder, die Sie hinzufügen, und die daraus erzeugten Vorschaubilder
+- Texte und Links, die Sie mit der App teilen oder in ihr schreiben
 - Titel, Notizen und Schlagwörter, die Sie eintippen
 - die Ordner, die Sie anlegen, und welche Bilder Sie darin ablegen
 - Text, der aus einem Bild erkannt wurde, wenn Sie das anfordern oder einschalten
@@ -51,7 +53,8 @@ gehört und für andere Apps nicht lesbar ist:
 - Ihre Einstellungen, etwa die gewählte Akzentfarbe
 
 Nichts davon wird übertragen, und nichts davon ist dem Anbieter zugänglich.
-Wenn Sie die App deinstallieren, löscht Android all das mit. Die App ist zudem
+Wenn Sie die App deinstallieren, löscht Android all das mit; Dateien in einem
+selbst gewählten Sync-Ordner (Ziffer 2.6) bleiben dort, bis Sie sie löschen. Die App ist zudem
 von der Android-eigenen Cloud-Sicherung ausgenommen, diese Daten werden also
 nicht in Ihr Google-Konto kopiert.
 
@@ -74,12 +77,25 @@ lediglich zu *lesen*, ob eine Verbindung besteht — nicht, sie zu nutzen. Ohne
 
 **Vibration (`VIBRATE`)** — kurzes haptisches Feedback bei Gesten.
 
-Das ist die einzige. Insbesondere fragt die App nicht nach Zugriff auf Ihre
+**Kamera (`CAMERA`)** — für die eingebaute Kamera der App, die ein Foto direkt
+in einen Ordner Ihrer Bibliothek aufnimmt. Android fragt Sie danach, wenn Sie
+diese Kamera zum ersten Mal öffnen, nicht vorher, und Sie können die
+Berechtigung jederzeit in den Systemeinstellungen verweigern oder entziehen;
+alles andere in der App funktioniert auch ohne sie. Die Kamera läuft nur,
+solange ihr Bildschirm geöffnet ist. Fotos werden wie jedes andere Bild im
+eigenen Speicher der App abgelegt, ohne Standortangaben, und eine
+Mikrofon-Berechtigung hat die App nicht.
+
+Das sind die einzigen beiden. Insbesondere fragt die App nicht nach Zugriff auf Ihre
 Fotos. Wenn Sie Bilder aus der Galerie hinzufügen, öffnet sich die Auswahl von
 Android selbst: Sie wählen die Bilder dort aus, und die App erhält nur diese.
 Den Rest Ihrer Fotosammlung bekommt sie nie zu sehen, und eine Berechtigung
-braucht sie dafür nicht. Bilder, die Sie aus einer anderen App heraus teilen,
-kommen auf dieselbe Weise an — nur das, was Sie übergeben.
+braucht sie dafür nicht. Bilder und Texte, die Sie aus einer anderen App heraus
+teilen, kommen auf dieselbe Weise an — nur das, was Sie übergeben. Ein geteilter
+Link wird als Text gespeichert; die App öffnet oder lädt ihn nie. Tippen Sie in
+einem gespeicherten Text auf einen Link, wird die Adresse an Ihren Browser
+übergeben, der sie mit seinen eigenen Berechtigungen lädt; die App selbst baut
+weiterhin keine Verbindung auf.
 
 ### 2.4 Texterkennung in Bildern
 
@@ -99,6 +115,39 @@ Datenschutzbestimmungen des von Ihnen gewählten Ziels. Der Anbieter hat weder
 Zugriff darauf noch Kenntnis davon.
 
 Dasselbe gilt für das Teilen eines einzelnen Bildes.
+
+### 2.6 Sync-Ordner (optional)
+
+In den Einstellungen der App können Sie einen Ordner auf Ihrem Telefon wählen
+und die Synchronisierung einschalten. Die App schreibt dann eine Kopie Ihrer
+Bibliothek in diesen Ordner und liest die gleichartigen Dateien, die Ihre
+anderen Geräte dort ablegen:
+
+- Ihre Bilder und Texte, als gewöhnliche Dateien;
+- deren Titel, Notizen, Schlagwörter und Schlagwortfarben, Ihre Ordner und die
+  Angabe, welches Bild in welchem Ordner liegt;
+- für jedes Gerät: eine zufällig erzeugte Kennung, einen Namen für das Gerät
+  wie dessen Modell sowie die Zeitpunkte, zu denen Einträge angelegt, geändert
+  und gelöscht wurden.
+
+Aufbewahrte Screenshot-Originale, KI-Profile und Einstellungen werden dort
+nicht abgelegt.
+
+Die App selbst überträgt weiterhin nichts — ihr fehlt die Berechtigung zur
+Internetnutzung. Den Ordner zwischen Ihren Geräten abzugleichen, übernimmt eine
+separate App, die Sie selbst auswählen und einrichten, etwa eine
+Synchronisierungs-App oder die App eines Cloud-Speicherdienstes. Solche Apps
+sind Angebote Dritter; der Anbieter steht in keiner Verbindung zu ihnen und hat
+keinen Einfluss auf sie, und es gelten deren eigene Bedingungen und
+Datenschutzerklärungen. Nutzen Sie einen Cloud-Speicherdienst, liegt Ihre
+Bibliothek dort nach dessen Bedingungen.
+
+Den Zugriff gewähren Sie über die Ordnerauswahl von Android selbst, für genau
+den einen gewählten Ordner und sonst nichts. Schalten Sie die Synchronisierung
+aus, schreibt die App nichts mehr in den Ordner; die Bibliothek auf Ihrem
+Telefon und die Dateien, die bereits im Ordner liegen, bleiben, wie sie sind.
+Sie können den Ordner jederzeit mit einem Dateimanager oder der Sync-App
+löschen.
 
 ## 3. Hosting dieser Website
 
@@ -145,8 +194,8 @@ Hessischen Beauftragten für Datenschutz und Informationsfreiheit. Da der
 Anbieter zu Ihrer Nutzung der App keine Daten hält, laufen entsprechende
 Anfragen zur App-Nutzung mangels vorhandener Daten praktisch leer; die Daten
 selbst können Sie jederzeit unmittelbar aus der App heraus exportieren oder
-durch Löschen einzelner Bilder beziehungsweise Deinstallation der App
-entfernen. Für Anfragen zu den in Ziffer 3 und 4 genannten Verarbeitungen
+durch Löschen einzelner Bilder, durch Löschen eines eingerichteten
+Sync-Ordners beziehungsweise durch Deinstallation der App entfernen. Für Anfragen zu den in Ziffer 3 und 4 genannten Verarbeitungen
 wenden Sie sich an die oben genannte Adresse.
 
 ## 6. Google Play

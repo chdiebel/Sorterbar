@@ -8,7 +8,7 @@ noindex: true
 
 *[Deutsche Fassung](datenschutz)*
 
-**Last updated: 11 September 2026**
+**Last updated: 1 October 2026**
 
 This policy explains how the IMGCabinet Android app and this accompanying
 website handle personal data. It does not cover the Google Play Store, which
@@ -17,7 +17,8 @@ is operated by Google and has its own privacy policy.
 In short: the app itself neither collects nor transmits any data, because it
 is not granted permission to use the internet. Everything you put into the
 app stays in its own storage on your phone and leaves the device only if you
-deliberately export or share it yourself. There are no accounts, no sign-in,
+deliberately export or share it yourself, or switch on the sync folder and
+let another app of your choice move it (section 2.6). There are no accounts, no sign-in,
 no analytics, no crash reporting, no advertising, and no third-party services
 inside the app. Visiting this website, like practically any website, does
 generate technical server logs at the hosting provider — see [Hosting of
@@ -44,6 +45,7 @@ Everything below is written by you and kept in storage that belongs to the app
 and is not readable by other apps:
 
 - the pictures you add, and the thumbnails the app generates from them
+- texts and links you share into the app or write in it
 - titles, notes and tags you type
 - the folders you create and which pictures you file into them
 - text recognised from a picture, when you ask for it or switch it on
@@ -51,7 +53,8 @@ and is not readable by other apps:
 - your settings, such as the highlight colour
 
 None of this is transmitted, and none of it is available to the developer. If
-you uninstall the app, Android deletes all of it. The app is also excluded from
+you uninstall the app, Android deletes all of it; files in a sync folder you
+chose yourself (section 2.6) stay there until you delete them. The app is also excluded from
 Android's own cloud backup, so this data is not copied to your Google account.
 
 ### 2.2 Network access
@@ -72,12 +75,22 @@ be transmitted regardless.
 
 **Vibration (`VIBRATE`)** — short haptic feedback when a gesture is recognised.
 
-That is the only one. In particular, the app does not ask for access to your
+**Camera (`CAMERA`)** — for the app's built-in camera, which takes a photo
+straight into a folder of your library. Android asks you for it the first time
+you open that camera, not before, and you can refuse or revoke it at any time
+in the system settings; everything else in the app works without it. The
+camera runs only while its screen is open. Photos are saved in the app's own
+storage like every other picture, no location is recorded with them, and the
+app has no microphone permission.
+
+Those are the only two. In particular, the app does not ask for access to your
 photos. When you add pictures from your gallery, Android's own picker opens:
 you choose the pictures there, and the app receives only those. It never sees
-the rest of your photo library and needs no permission for this. Pictures you
-share into the app from another app arrive the same way — only what you hand
-over.
+the rest of your photo library and needs no permission for this. Pictures and
+text you share into the app from another app arrive the same way — only what
+you hand over. A shared link is saved as text; the app never opens or loads
+it. Tapping a link in a saved text hands the address to your browser, which
+loads it with its own permissions; the app itself still opens no connection.
 
 ### 2.4 Reading text in pictures
 
@@ -97,6 +110,34 @@ apply to the destination you picked. The developer has no access to it and no
 knowledge that it exists.
 
 The same applies to sharing a single picture out of the app.
+
+### 2.6 Sync folder (optional)
+
+In the app's settings you can choose a folder on your phone and switch on
+sync. The app then writes a copy of your library into that folder, and reads
+the same kind of files written there by your other devices:
+
+- your pictures and texts, as ordinary files;
+- their titles, notes, tags and tag colours, your folders, and which pictures
+  are in which folder;
+- for each device: a randomly generated identifier, a name for the device such
+  as its model, and the times at which items were created, changed and
+  deleted.
+
+Kept screenshot originals, AI profiles and settings are not written there.
+
+The app itself still transmits nothing — it has no internet permission. Moving
+the folder between your devices is done by a separate app that you choose and
+set up yourself, for example a file-synchronisation app or the app of a cloud
+storage service. Such apps are offered by third parties; the developer has no
+connection to them and no influence on them, and their own terms and privacy
+policies apply. If you use a cloud storage service, your library is stored
+there under that service's terms.
+
+Access is granted through Android's own folder picker, for the one folder you
+choose and nothing else. Switching sync off stops all writing to the folder;
+the library on your phone and the files already in the folder stay as they
+are. You can delete the folder at any time with a file manager or the sync app.
 
 ## 3. Hosting of this website
 
@@ -141,7 +182,8 @@ Commissioner for Data Protection and Freedom of Information. Because the
 developer holds no data about your use of the app, requests concerning app
 usage will in practice find nothing to act on; the data itself can be
 exported directly from within the app at any time, and removed by deleting
-individual pictures or by uninstalling the app. For requests concerning the
+individual pictures, by deleting a sync folder you set up, or by uninstalling
+the app. For requests concerning the
 processing described in sections 3 and 4, contact the address above.
 
 ## 6. Google Play
