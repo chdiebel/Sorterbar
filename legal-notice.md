@@ -1,3 +1,9 @@
+---
+title: "Legal notice"
+lang: en
+noindex: true
+---
+
 # Legal Notice (Impressum)
 
 *[Deutsche Fassung](impressum)*
@@ -22,11 +28,6 @@ Phone: +49 177 3785163
 ## Responsibility for content
 
 Christopher Diebel, address as above.
-
-## Consumer dispute resolution
-
-We are neither obliged nor willing to participate in dispute resolution
-proceedings before a consumer arbitration board.
 
 ## Liability for links
 

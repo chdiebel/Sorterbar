@@ -1,3 +1,9 @@
+---
+title: "Impressum"
+lang: de
+noindex: true
+---
+
 # Impressum
 
 *[English version](legal-notice)*
@@ -22,11 +28,6 @@ Telefon: +49 177 3785163
 ## Verantwortlich für den Inhalt
 
 Christopher Diebel, Anschrift wie oben.
-
-## Verbraucherstreitbeilegung
-
-Wir sind weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer
-Verbraucherschlichtungsstelle teilzunehmen.
 
 ## Haftung für Links
 
