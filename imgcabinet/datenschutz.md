@@ -8,7 +8,7 @@ noindex: true
 
 *[English version](privacy-policy)*
 
-**Stand: 1. Oktober 2026**
+**Stand: 11. Oktober 2026**
 
 Diese Erklärung beschreibt, wie die Android-App IMGCabinet und diese
 Begleitseite mit personenbezogenen Daten umgehen. Sie gilt nicht für den
@@ -53,10 +53,16 @@ gehört und für andere Apps nicht lesbar ist:
 - Ihre Einstellungen, etwa die gewählte Akzentfarbe
 
 Nichts davon wird übertragen, und nichts davon ist dem Anbieter zugänglich.
-Wenn Sie die App deinstallieren, löscht Android all das mit; Dateien in einem
-selbst gewählten Sync-Ordner (Ziffer 2.6) bleiben dort, bis Sie sie löschen. Die App ist zudem
-von der Android-eigenen Cloud-Sicherung ausgenommen, diese Daten werden also
-nicht in Ihr Google-Konto kopiert.
+Bilder und Texte, die Sie löschen, liegen noch 30 Tage unter „Recently
+deleted" in der App – weiterhin im app-eigenen Speicher –, bevor sie endgültig
+entfernt werden; Sie können diesen Bereich auch früher leeren. Wenn Sie die App
+deinstallieren, löscht Android all das mit, es sei denn, Sie wählen im
+Deinstallationsdialog von Android, die App-Daten zu behalten: Dann bewahrt
+Android sie im selben geschützten Speicher auf Ihrem Telefon auf, für eine
+spätere Neuinstallation der App. Dateien in einem selbst gewählten Sync-Ordner
+(Ziffer 2.6) bleiben dort, bis Sie sie löschen. Die App ist zudem von der
+Android-eigenen Cloud-Sicherung ausgenommen, diese Daten werden also nicht in
+Ihr Google-Konto kopiert.
 
 ### 2.2 Netzwerkzugriff
 
@@ -114,7 +120,9 @@ Dateimanager, einen Messenger oder etwas anderes. Ab diesem Moment gelten die
 Datenschutzbestimmungen des von Ihnen gewählten Ziels. Der Anbieter hat weder
 Zugriff darauf noch Kenntnis davon.
 
-Dasselbe gilt für das Teilen eines einzelnen Bildes.
+Dasselbe gilt für das Teilen eines einzelnen Bildes und für die Sicherungsdatei,
+die die App zum Speichern anbietet, falls sie Ihre Bibliothek einmal nicht
+öffnen kann.
 
 ### 2.6 Sync-Ordner (optional)
 
@@ -131,7 +139,8 @@ anderen Geräte dort ablegen:
   und gelöscht wurden.
 
 Aufbewahrte Screenshot-Originale, KI-Profile und Einstellungen werden dort
-nicht abgelegt.
+nicht abgelegt. Ein Bild oder Text, den Sie löschen, bleibt noch 30 Tage im
+Ordner, bevor die App ihn auch dort entfernt.
 
 Die App selbst überträgt weiterhin nichts — ihr fehlt die Berechtigung zur
 Internetnutzung. Den Ordner zwischen Ihren Geräten abzugleichen, übernimmt eine
@@ -194,8 +203,9 @@ Hessischen Beauftragten für Datenschutz und Informationsfreiheit. Da der
 Anbieter zu Ihrer Nutzung der App keine Daten hält, laufen entsprechende
 Anfragen zur App-Nutzung mangels vorhandener Daten praktisch leer; die Daten
 selbst können Sie jederzeit unmittelbar aus der App heraus exportieren oder
-durch Löschen einzelner Bilder, durch Löschen eines eingerichteten
-Sync-Ordners beziehungsweise durch Deinstallation der App entfernen. Für Anfragen zu den in Ziffer 3 und 4 genannten Verarbeitungen
+durch Löschen einzelner Bilder und Leeren von „Recently deleted", durch Löschen
+eines eingerichteten Sync-Ordners beziehungsweise durch Deinstallation der App
+ohne Behalten der App-Daten entfernen. Für Anfragen zu den in Ziffer 3 und 4 genannten Verarbeitungen
 wenden Sie sich an die oben genannte Adresse.
 
 ## 6. Google Play

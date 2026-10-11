@@ -8,7 +8,7 @@ noindex: true
 
 *[Deutsche Fassung](datenschutz)*
 
-**Last updated: 1 October 2026**
+**Last updated: 11 October 2026**
 
 This policy explains how the IMGCabinet Android app and this accompanying
 website handle personal data. It does not cover the Google Play Store, which
@@ -52,10 +52,15 @@ and is not readable by other apps:
 - the uncropped original of a screenshot, when you tick the box to keep it
 - your settings, such as the highlight colour
 
-None of this is transmitted, and none of it is available to the developer. If
-you uninstall the app, Android deletes all of it; files in a sync folder you
-chose yourself (section 2.6) stay there until you delete them. The app is also excluded from
-Android's own cloud backup, so this data is not copied to your Google account.
+None of this is transmitted, and none of it is available to the developer.
+Pictures and texts you delete stay under "Recently deleted" in the app for 30
+days — still in the app's own storage — before they are removed for good; you
+can empty it sooner. If you uninstall the app, Android deletes all of it,
+unless you choose in Android's uninstall dialog to keep the app's data: Android
+then keeps it on your phone, in the same protected storage, for when the app is
+installed again. Files in a sync folder you chose yourself (section 2.6) stay
+there until you delete them. The app is also excluded from Android's own cloud
+backup, so this data is not copied to your Google account.
 
 ### 2.2 Network access
 
@@ -109,7 +114,8 @@ anywhere else. From that moment the file is subject to whatever privacy terms
 apply to the destination you picked. The developer has no access to it and no
 knowledge that it exists.
 
-The same applies to sharing a single picture out of the app.
+The same applies to sharing a single picture out of the app, and to the backup
+file the app offers to save if it ever cannot open your library.
 
 ### 2.6 Sync folder (optional)
 
@@ -124,7 +130,9 @@ the same kind of files written there by your other devices:
   as its model, and the times at which items were created, changed and
   deleted.
 
-Kept screenshot originals, AI profiles and settings are not written there.
+Kept screenshot originals, AI profiles and settings are not written there. A
+picture or text you delete stays in the folder for another 30 days before the
+app removes it there too.
 
 The app itself still transmits nothing — it has no internet permission. Moving
 the folder between your devices is done by a separate app that you choose and
@@ -182,8 +190,9 @@ Commissioner for Data Protection and Freedom of Information. Because the
 developer holds no data about your use of the app, requests concerning app
 usage will in practice find nothing to act on; the data itself can be
 exported directly from within the app at any time, and removed by deleting
-individual pictures, by deleting a sync folder you set up, or by uninstalling
-the app. For requests concerning the
+individual pictures and emptying "Recently deleted", by deleting a sync folder
+you set up, or by uninstalling the app without keeping its data. For requests
+concerning the
 processing described in sections 3 and 4, contact the address above.
 
 ## 6. Google Play
